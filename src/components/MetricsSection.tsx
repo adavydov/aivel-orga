@@ -70,7 +70,7 @@ export function MetricsSection() {
               <th scope="col">База</th>
               <th scope="col">Обращения</th>
               <th scope="col">Встречи</th>
-              <th scope="col">Downstream</th>
+              <th scope="col">Итог</th>
             </tr>
           </thead>
           <tbody>
@@ -85,6 +85,11 @@ export function MetricsSection() {
             ))}
           </tbody>
         </table>
+
+        <p className="org-note">
+          Числовые цели фиксируются вместе с ресурсной рамкой. До этого перед
+          нами карта измерения роли, а не готовая бонусная схема.
+        </p>
 
         <p className="callout">
           Маркетинг снижает цену входа не торгом, а ценностью присоединения. При

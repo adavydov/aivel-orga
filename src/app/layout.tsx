@@ -14,6 +14,21 @@ export const metadata: Metadata = {
     locale: "ru_RU",
     url: "https://adavydov.github.io/aivel-orga/",
     siteName: "Aivel",
+    images: [
+      {
+        url: "https://adavydov.github.io/aivel-orga/og.png",
+        width: 1736,
+        height: 907,
+        alt: "Aivel — три измеримые машины спроса",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Директор по маркетингу Aivel — контракт роли",
+    description:
+      "Три машины спроса: СМБ, Enterprise и бухгалтерский аутсорсинг.",
+    images: ["https://adavydov.github.io/aivel-orga/og.png"],
   },
   robots: {
     index: false,

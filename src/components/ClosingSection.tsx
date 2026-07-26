@@ -46,40 +46,25 @@ export function ClosingSection() {
   }
 
   return (
-    <>
-      <section className="story-section" id="closing">
-        <div className="section-index">
-          <span>08</span>
-          <h2>Следующий шаг</h2>
-        </div>
+    <section className="story-section" id="closing">
+      <div className="section-index">
+        <span>08</span>
+        <h2>Следующий шаг</h2>
+      </div>
 
-        <div className="section-body">
-          <h3 className="closing-title">
-            Совпали — обсуждаем ресурсы и старт
-          </h3>
-          <p className="closing-copy">
-            Если контекст, порядок фокуса, функции, границы и метрики прочитаны
-            одинаково, следующий разговор нужен не для расшифровки роли, а для
-            фиксации условий работы.
-          </p>
-          <div className="hero-actions">
-            <button
-              className="button primary"
-              onClick={copyLink}
-              type="button"
-            >
-              {copied ? "Ссылка скопирована" : "Скопировать ссылку"}
-            </button>
-          </div>
+      <div className="section-body">
+        <h3 className="closing-title">Совпали — обсуждаем ресурсы и старт</h3>
+        <p className="closing-copy">
+          Если контекст, порядок фокуса, функции, границы и метрики прочитаны
+          одинаково, следующий разговор нужен не для расшифровки роли, а для
+          фиксации условий работы.
+        </p>
+        <div className="hero-actions">
+          <button className="button primary" onClick={copyLink} type="button">
+            {copied ? "Ссылка скопирована" : "Скопировать ссылку"}
+          </button>
         </div>
-      </section>
-
-      <footer className="site-footer">
-        <div className="shell">
-          <span>Aivel · контракт роли</span>
-          <span>CEO ↔ директор по маркетингу</span>
-        </div>
-      </footer>
-    </>
+      </div>
+    </section>
   );
 }

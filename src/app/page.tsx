@@ -1,9 +1,37 @@
+import { BoundariesSection } from "@/components/BoundariesSection";
+import { ClosingSection } from "@/components/ClosingSection";
+import { ContextFocusSection } from "@/components/ContextFocusSection";
+import { FounderContractSection } from "@/components/FounderContractSection";
+import { FunctionsSection } from "@/components/FunctionsSection";
+import { HeroSection } from "@/components/HeroSection";
+import { MetricsSection } from "@/components/MetricsSection";
+import { SiteHeader } from "@/components/SiteHeader";
+import { TargetOrgSection } from "@/components/TargetOrgSection";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <p className="text-muted-foreground">
-        Clone target not yet built. Run <code className="font-mono text-foreground">/clone-website</code> to start.
-      </p>
-    </main>
+    <>
+      <SiteHeader />
+      <main id="content">
+        <HeroSection />
+        <div className="shell">
+          <div className="story">
+            <ContextFocusSection />
+            <FunctionsSection />
+            <TargetOrgSection />
+            <BoundariesSection />
+            <MetricsSection />
+            <FounderContractSection />
+            <ClosingSection />
+          </div>
+        </div>
+      </main>
+      <footer className="site-footer">
+        <div className="shell">
+          <span>Aivel · контракт роли</span>
+          <span>CEO ↔ директор по маркетингу</span>
+        </div>
+      </footer>
+    </>
   );
 }
