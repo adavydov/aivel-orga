@@ -1,10 +1,7 @@
 const navigation = [
-  { href: "#context", label: "Контекст" },
-  { href: "#focus", label: "Фокус" },
   { href: "#functions", label: "Функции" },
   { href: "#org", label: "Орга" },
   { href: "#boundaries", label: "Границы" },
-  { href: "#metrics", label: "Метрики" },
 ];
 
 export function SiteHeader() {

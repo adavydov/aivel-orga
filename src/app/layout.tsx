@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://adavydov.github.io/aivel-orga/"),
   title: "Директор по маркетингу Aivel — контракт роли",
   description:
-    "Контекст, приоритеты, функции, границы и метрики роли директора по маркетингу Aivel.",
+    "Фокус, функции, границы и метрики роли директора по маркетингу Aivel.",
   openGraph: {
     title: "Директор по маркетингу Aivel — контракт роли",
     description:

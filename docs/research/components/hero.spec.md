@@ -12,7 +12,7 @@
   - shell
   - eyebrow
   - H1
-  - lead copy
+  - context and focus copy
   - three-column segment grid
 
 ## Exact styles
@@ -27,8 +27,8 @@
 
 - Eyebrow: `КОНТРАКТ РОЛИ · CEO ↔ ДИРЕКТОР ПО МАРКЕТИНГУ`
 - H1: `Построить три измеримые машины спроса`
-- Lead: `Сначала СМБ. Затем Enterprise. Затем бух-аутсорс. Product Marketing нового направления и бренд связывают их в одну систему Aivel.`
+- Lead: `Aivel одновременно развивает новый продукт для СМБ, продаёт Enterprise AI software и строит roll-up бухгалтерского аутсорсинга. Порядок фокуса: СМБ → Enterprise → бух-аутсорс.`
 - Segments:
-  - `СМБ`
-  - `Enterprise`
-  - `Бух-аутсорс`
+  - `СМБ` / `Органический рост и новый продукт`
+  - `Enterprise` / `Enterprise AI software`
+  - `Бух-аутсорс` / `Roll-up через партнёрства и M&A`

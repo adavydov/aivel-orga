@@ -1,4 +1,4 @@
-# Boundaries specification
+# Marketing boundaries and metrics specification
 
 ## Overview
 
@@ -9,34 +9,59 @@
 
 - indexed section
 - lead
-- three boundary panels:
+- three boundary rows:
   - Product
   - Commerce
   - M&A
+- each row contains:
+  - marketing responsibility
+  - explicit exclusion
+  - directly related metrics
 
 ## Product boundary
 
-- Marketing owns: segment, positioning, offer, packaging, launch, demand
-- Product owns: functionality, quality, roadmap, implementation of product capability
-- Shared seam: launch promise and proof must match what the product actually delivers
+- Marketing owns:
+  - buyer segments and jobs
+  - positioning, offer, and packaging
+  - launch, cases, demos, and demand
+- Marketing does not own:
+  - functionality, quality, roadmap, or product implementation
+- Metrics:
+  - AI CFO inquiries and demos
+  - price premium through brand strength, shared with Product and Commerce
 
 ## Commerce boundary
 
-- Marketing owns: owned base, demand, target inquiry, creation of the meeting
-- Commerce owns: qualification during the sales process, proposal, contract, revenue
-- Shared seam: a held target meeting with source, segment, and offer understood
+- Marketing owns:
+  - growth of the owned target base
+  - target inquiries
+  - moving an inquiry to a held meeting
+- Marketing does not own:
+  - sales qualification, proposal, contract, or closing
+- Metrics:
+  - owned-base size in contacts
+  - target inquiries
+  - held meetings
+  - enterprise pipeline and revenue, shared with Commerce
 
 ## M&A boundary
 
-- Marketing owns: trust, warm owner audience, partner narrative, warm target meetings
-- M&A owns: target selection, valuation, due diligence, negotiation, closing
-- Shared seam: target-company revenue and achieved acquisition multiple
+- Marketing owns:
+  - trust and a warm owner base
+  - Aivel partnership narrative
+  - warm target-owner meetings
+- Marketing does not own:
+  - target selection, valuation, due diligence, negotiations, or closing
+- Metrics:
+  - warm-owner base size
+  - owner meetings
+  - aggregate revenue of warm companies
+  - actual acquisition multiple on closed sourced deals, shared with M&A
 
 ## Exact styles
 
-- three rows with accent top/bottom rules
-- each row uses three columns: Marketing / Counterpart / Shared seam
-- headings Arial 18–20px, body 14–16px
-- shared seam column has soft accent background
+- three editorial rows with accent top/bottom rules
+- three columns: counterpart / marketing boundary / metrics
+- marketing responsibility and exclusion are visually distinct
+- metrics use a soft accent background
 - mobile stacks each row vertically
-

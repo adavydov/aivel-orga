@@ -2,7 +2,7 @@ export function TargetOrgSection() {
   return (
     <section className="story-section" id="org">
       <div className="section-index">
-        <span>04</span>
+        <span>02</span>
         <h2>Целевая орга</h2>
       </div>
 
@@ -26,8 +26,14 @@ export function TargetOrgSection() {
               <div className="org-roles">
                 <div className="org-role">
                   Public Communications &amp; Audience Lead
+                  <small>
+                    Senior Content Marketer · Speaker Coach · Methodologist
+                  </small>
                 </div>
-                <div className="org-role">Digital Marketing Lead</div>
+                <div className="org-role">
+                  Digital Marketing Lead
+                  <small>SEO / GEO Marketer · Performance</small>
+                </div>
               </div>
             </div>
 
@@ -36,6 +42,7 @@ export function TargetOrgSection() {
               <div className="org-roles">
                 <div className="org-role">
                   Enterprise Network Marketing Lead
+                  <small>Event Manager</small>
                 </div>
               </div>
             </div>
@@ -57,19 +64,19 @@ export function TargetOrgSection() {
             </div>
           </div>
 
-          <div className="org-branch">
+          <div className="org-branch shared-functions">
             <strong>Общие функции</strong>
 
             <div className="org-segment">
-              <span>Поперёк</span>
+              <span>Поперёк всех трёх сегментов</span>
               <div className="org-roles">
                 <div className="org-role">Head of Product Marketing</div>
                 <div className="org-role">Brand Lead</div>
                 <div className="org-role">
                   Контент-студия
                   <small>
-                    Managing Editor / Content Producer + Designer / Creative
-                    Producer
+                    Managing Editor / Content Producer · Editors · Designer /
+                    Creative Producer · Layout / Web Producer
                   </small>
                 </div>
               </div>

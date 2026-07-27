@@ -9,7 +9,8 @@ const functionGroups = [
       },
       {
         name: "Digital Marketing",
-        description: "SEO / GEO, Performance.",
+        description:
+          "Лендинги, SEO / GEO, платное привлечение и digital-воронки нового продукта «ИИ-финдир».",
       },
     ],
   },
@@ -71,7 +72,7 @@ export function FunctionsSection() {
   return (
     <section className="story-section" id="functions">
       <div className="section-index">
-        <span>03</span>
+        <span>01</span>
         <h2>Функции</h2>
       </div>
 

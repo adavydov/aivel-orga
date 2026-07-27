@@ -19,7 +19,7 @@
 - `Публичные коммуникации и развитие базы`
   - media, public talks, webinars, useful material, owned entrepreneur base
 - `Digital Marketing`
-  - SEO / GEO, Performance
+  - landing pages, SEO / GEO, paid acquisition, and digital funnels for AI CFO
 
 ### Enterprise demand engine
 

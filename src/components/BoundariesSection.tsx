@@ -1,70 +1,102 @@
-import type { Boundary } from "@/types/content";
-
-const boundaries: Boundary[] = [
+const boundaries = [
   {
     counterpart: "Продукт",
-    marketingOwns:
-      "Сегмент, позиционирование, оффер, упаковка, запуск и спрос.",
-    counterpartOwns:
-      "Функциональность, качество, roadmap и реализация продуктовой возможности.",
-    sharedSeam:
-      "Обещание запуска и доказательства соответствуют тому, что реально делает продукт.",
+    owns: [
+      "Сегменты и задачи покупателя",
+      "Позиционирование, оффер и упаковка",
+      "Запуск, кейсы, демо и создание спроса",
+    ],
+    excludes:
+      "Функциональность, качество, roadmap и реализация продукта.",
+    metrics: [
+      "Заявки и демо на ИИ-финдира",
+      "Премия к рынку за счёт силы бренда — совместно с Продуктом и Коммерцией",
+    ],
   },
   {
     counterpart: "Коммерция",
-    marketingOwns:
-      "Собственная база, спрос, целевое обращение и создание встречи.",
-    counterpartOwns:
-      "Квалификация в продажах, предложение, договор и выручка.",
-    sharedSeam:
-      "Проведённая целевая встреча: понятны источник, сегмент и оффер.",
+    owns: [
+      "Рост собственной целевой базы",
+      "Целевые обращения",
+      "Доведение обращения до проведённой встречи",
+    ],
+    excludes:
+      "Квалификация в продажах, предложение, договор и закрытие сделки.",
+    metrics: [
+      "Размер целевой базы в контактах",
+      "Целевые обращения",
+      "Проведённые встречи",
+      "Объём Enterprise-воронки и выручка — совместно с Коммерцией",
+    ],
   },
   {
     counterpart: "M&A",
-    marketingOwns:
-      "Доверие, тёплая аудитория собственников, партнёрский нарратив и тёплые встречи.",
-    counterpartOwns:
-      "Выбор целей, оценка, DD, переговоры и закрытие.",
-    sharedSeam:
-      "Выручка тёплых компаний и фактический мультипликатор покупки.",
+    owns: [
+      "Доверие и тёплая база владельцев",
+      "Партнёрский нарратив Aivel",
+      "Тёплые встречи с владельцами компаний",
+    ],
+    excludes:
+      "Выбор целей, оценка, due diligence, переговоры и закрытие сделки.",
+    metrics: [
+      "Размер тёплой базы владельцев",
+      "Встречи с владельцами",
+      "Совокупная выручка тёплых компаний",
+      "Фактический мультипликатор закрытых сделок — совместно с M&A",
+    ],
   },
-];
+] as const;
 
 export function BoundariesSection() {
   return (
     <section className="story-section" id="boundaries">
       <div className="section-index">
-        <span>05</span>
-        <h2>Границы</h2>
+        <span>03</span>
+        <h2>Границы маркетинга</h2>
       </div>
 
       <div className="section-body">
         <p className="section-lead">
-          Маркетинг не подменяет Продукт, Коммерцию или M&amp;A. На каждом
-          стыке есть свой результат передачи.
+          Маркетинг строит адресный спрос и доводит его до следующего шага. Ниже
+          — где заканчивается его ответственность и чем измеряется результат.
         </p>
 
         <div className="boundary-table">
           {boundaries.map((boundary) => (
-            <div className="boundary-row" key={boundary.counterpart}>
+            <article className="boundary-row" key={boundary.counterpart}>
               <div className="boundary-cell">
                 <span className="boundary-name">{boundary.counterpart}</span>
               </div>
-              <div className="boundary-cell">
-                <strong>Маркетинг</strong>
-                <p>{boundary.marketingOwns}</p>
+
+              <div className="boundary-cell boundary-scope">
+                <strong>Маркетинг отвечает за</strong>
+                <ul>
+                  {boundary.owns.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+                <p className="boundary-exclusion">
+                  <b>Не отвечает за:</b> {boundary.excludes}
+                </p>
               </div>
-              <div className="boundary-cell">
-                <strong>{boundary.counterpart}</strong>
-                <p>{boundary.counterpartOwns}</p>
+
+              <div className="boundary-cell boundary-metrics">
+                <strong>Метрики</strong>
+                <ul>
+                  {boundary.metrics.map((metric) => (
+                    <li key={metric}>{metric}</li>
+                  ))}
+                </ul>
               </div>
-              <div className="boundary-cell seam">
-                <strong>Общий стык</strong>
-                <p>{boundary.sharedSeam}</p>
-              </div>
-            </div>
+            </article>
           ))}
         </div>
+
+        <p className="org-note">
+          Числовые цели фиксируются вместе с ресурсной рамкой. Совместная
+          outcome-метрика не переносит на маркетинг ответственность за продукт,
+          продажу или закрытие M&amp;A-сделки.
+        </p>
       </div>
     </section>
   );
