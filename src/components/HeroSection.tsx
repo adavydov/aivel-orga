@@ -1,8 +1,7 @@
 const priorities = [
-  { value: "01", label: "СМБ" },
-  { value: "02", label: "Enterprise" },
-  { value: "03", label: "Бух-аутсорс" },
-  { value: "2", label: "общие функции" },
+  "СМБ",
+  "Enterprise",
+  "Бух-аутсорс",
 ];
 
 export function HeroSection() {
@@ -16,22 +15,12 @@ export function HeroSection() {
           нового направления и бренд связывают их в одну систему Aivel.
         </p>
 
-        <div className="metric-grid cols-4 hero-metrics" aria-label="Архитектура мандата">
+        <div className="metric-grid cols-3 hero-metrics" aria-label="Три сегмента">
           {priorities.map((priority) => (
-            <div className="metric-card" key={priority.label}>
-              <strong>{priority.value}</strong>
-              <span>{priority.label}</span>
+            <div className="metric-card" key={priority}>
+              <strong>{priority}</strong>
             </div>
           ))}
-        </div>
-
-        <div className="hero-actions">
-          <a className="button primary" href="#functions">
-            Смотреть мандат
-          </a>
-          <a className="button" href="#boundaries">
-            Границы роли
-          </a>
         </div>
       </div>
     </section>
