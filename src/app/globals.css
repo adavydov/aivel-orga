@@ -252,6 +252,11 @@ button {
   font: 13px/1.4 var(--sans);
 }
 
+.metrics-summary .metric-card > strong {
+  font-size: clamp(30px, 2.8vw, 46px);
+  letter-spacing: -0.06em;
+}
+
 .hero-metrics {
   margin-top: 54px;
 }

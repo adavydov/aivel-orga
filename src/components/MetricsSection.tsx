@@ -18,17 +18,17 @@ const universalMetrics: Metric[] = [
 const segmentMetrics = [
   {
     contour: "SMB",
-    base: "Предприниматели",
+    base: "Количество целевых контактов предпринимателей",
     inquiries: "Заявки на ИИ-финдира",
     meetings: "Демо / встречи",
-    downstream: "—",
+    downstream: "Возможность прайсить выше рынка за счёт силы бренда",
   },
   {
     contour: "Enterprise",
     base: "Целевые аккаунты и ЛПР",
     inquiries: "Целевые обращения",
     meetings: "Встречи с целевыми ролями",
-    downstream: "—",
+    downstream: "Объём целевой воронки и выручка",
   },
   {
     contour: "Бух-аутсорс",
@@ -54,7 +54,7 @@ export function MetricsSection() {
           к следующему коммерческому шагу.
         </p>
 
-        <div className="metric-grid cols-3">
+        <div className="metric-grid cols-3 metrics-summary">
           {universalMetrics.map((metric) => (
             <div className="metric-card" key={metric.value}>
               <strong>{metric.value}</strong>
@@ -88,7 +88,8 @@ export function MetricsSection() {
 
         <p className="org-note">
           Числовые цели фиксируются вместе с ресурсной рамкой. До этого перед
-          нами карта измерения роли, а не готовая бонусная схема.
+          нами карта измерения роли, а не готовая бонусная схема. Премия к рынку
+          и выручка Enterprise — совместные результаты с Продуктом и Коммерцией.
         </p>
 
         <p className="callout">

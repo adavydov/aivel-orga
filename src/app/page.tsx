@@ -1,7 +1,6 @@
 import { BoundariesSection } from "@/components/BoundariesSection";
 import { ClosingSection } from "@/components/ClosingSection";
 import { ContextFocusSection } from "@/components/ContextFocusSection";
-import { FounderContractSection } from "@/components/FounderContractSection";
 import { FunctionsSection } from "@/components/FunctionsSection";
 import { HeroSection } from "@/components/HeroSection";
 import { MetricsSection } from "@/components/MetricsSection";
@@ -21,7 +20,6 @@ export default function Home() {
             <TargetOrgSection />
             <BoundariesSection />
             <MetricsSection />
-            <FounderContractSection />
             <ClosingSection />
           </div>
         </div>

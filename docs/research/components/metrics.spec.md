@@ -22,15 +22,17 @@
 
 ### SMB
 
-- owned entrepreneur base
+- number of target entrepreneur contacts in the owned base
 - target inquiries for AI CFO
 - held demos / meetings
+- ability to price above market through brand strength
 
 ### Enterprise
 
 - target-account and decision-maker base
 - target inquiries
 - held meetings with target roles
+- target pipeline volume and enterprise-account revenue
 
 ### Accounting outsourcing
 
@@ -45,12 +47,12 @@
 
 ## Ownership note
 
-Revenue and acquisition multiple are shared outcome metrics with M&A; marketing does not own valuation or closing.
+SMB price premium and enterprise revenue are shared outcome metrics with Product and Commerce. Revenue and acquisition multiple for accounting outsourcing are shared with M&A; marketing does not own valuation or closing.
 
 ## Exact styles
 
 - top metrics use the reference metric grid
+- summary labels use a smaller responsive scale so long Russian words do not collide
 - segment rows use a compact data table
 - multiplier callout uses accent top/bottom rules and accent-dark text
 - mobile stacks metrics and allows the table to become labeled blocks
-

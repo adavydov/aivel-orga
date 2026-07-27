@@ -18,8 +18,8 @@
 
 - `Публичные коммуникации и развитие базы`
   - media, public talks, webinars, useful material, owned entrepreneur base
-- `Product Digital`
-  - landing pages, SEO, paid acquisition, digital funnels for AI CFO
+- `Digital Marketing`
+  - SEO / GEO, Performance
 
 ### Enterprise demand engine
 
@@ -54,4 +54,3 @@
 - segment number/label: 10–11px uppercase accent
 - shared functions use soft accent background
 - mobile: single-column rows
-

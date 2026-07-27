@@ -28,11 +28,10 @@
 ## Content
 
 - Brand: `Aivel / роль`
-- Links: `Контекст`, `Фокус`, `Функции`, `Границы`, `Метрики`, `Контракт`
+- Links: `Контекст`, `Фокус`, `Функции`, `Орга`, `Границы`, `Метрики`
 
 ## States
 
 - Link hover: ink → accent
 - Focus: 2px accent outline
 - Mobile `<details>` opens a vertical menu
-

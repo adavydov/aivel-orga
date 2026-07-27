@@ -2,7 +2,7 @@
 
 1. **Sticky header**
    - Brand: `Aivel / роль`
-   - Anchors: Context, Focus, Functions, Boundaries, Metrics, Contract
+   - Anchors: Context, Focus, Functions, Organization, Boundaries, Metrics
 
 2. **Hero**
    - Eyebrow: candidate pre-read
@@ -34,18 +34,14 @@
 
 8. **Metrics**
    - Common outputs: owned base, target inquiries, held meetings
-   - Segment-specific metrics
-   - Accounting-outsourcing outcome metrics: target-company revenue and acquisition multiple
+   - SMB: contact-base size and the ability to price above market through brand strength
+   - Enterprise: target pipeline and revenue
+   - Accounting outsourcing: target-company revenue and acquisition multiple
 
-9. **CEO ↔ Marketing Director contract**
-   - CEO commitments
-   - Director commitments
-   - Decisions made together
-
-10. **Closing**
+9. **Closing**
    - Restates the mandate in one sentence
-   - CTA: copy/share the page and use the next meeting to resolve differences
+   - Uses the next meeting to resolve differences
 
-11. **Footer**
+10. **Footer**
     - Aivel
     - Purpose and date

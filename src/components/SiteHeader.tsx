@@ -5,7 +5,6 @@ const navigation = [
   { href: "#org", label: "Орга" },
   { href: "#boundaries", label: "Границы" },
   { href: "#metrics", label: "Метрики" },
-  { href: "#contract", label: "Контракт" },
 ];
 
 export function SiteHeader() {

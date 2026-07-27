@@ -24,7 +24,7 @@
 ### SMB
 
 - `Public Communications & Audience Lead`
-- `Product Digital / Growth Lead`
+- `Digital Marketing Lead`
 
 ### Enterprise
 
@@ -55,4 +55,3 @@ These are mandatory responsibility cells, not an approved headcount plan. One pe
 - role rows: 1px faint separators, Arial 15–18px
 - segment labels: uppercase accent 10px
 - mobile: branches stack; hierarchy stays visible through borders and indentation
-

@@ -8,9 +8,8 @@ const functionGroups = [
           "Медиа, выступления, вебинары и полезные материалы собирают собственную базу предпринимателей как актив.",
       },
       {
-        name: "Product Digital",
-        description:
-          "Лендинги, SEO, платное привлечение и digital-воронки нового продукта «ИИ-финдир».",
+        name: "Digital Marketing",
+        description: "SEO / GEO, Performance.",
       },
     ],
   },

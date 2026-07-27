@@ -27,7 +27,7 @@ export function TargetOrgSection() {
                 <div className="org-role">
                   Public Communications &amp; Audience Lead
                 </div>
-                <div className="org-role">Product Digital / Growth Lead</div>
+                <div className="org-role">Digital Marketing Lead</div>
               </div>
             </div>
 
