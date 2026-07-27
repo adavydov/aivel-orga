@@ -6,7 +6,7 @@ const navigation = [
   { href: "#boundaries", label: "Границы" },
 ];
 
-export function SiteHeader() {
+export function CommercialSiteHeader() {
   return (
     <>
       <a className="skip-link" href="#content">
@@ -15,8 +15,12 @@ export function SiteHeader() {
 
       <header className="site-header">
         <div className="shell header-inner">
-          <a className="site-brand" href="#content" aria-label="Aivel — к началу страницы">
-            Aivel / роль
+          <a
+            className="site-brand"
+            href="#content"
+            aria-label="Aivel — к началу страницы"
+          >
+            Aivel / коммерция
           </a>
 
           <nav className="desktop-nav" aria-label="Основная навигация">
@@ -25,7 +29,7 @@ export function SiteHeader() {
                 {item.label}
               </a>
             ))}
-            <Link href="/commercial/">Коммерция</Link>
+            <Link href="/">Маркетинг</Link>
           </nav>
 
           <details className="mobile-nav">
@@ -36,7 +40,7 @@ export function SiteHeader() {
                   {item.label}
                 </a>
               ))}
-              <Link href="/commercial/">Коммерция</Link>
+              <Link href="/">Маркетинг</Link>
             </nav>
           </details>
         </div>
