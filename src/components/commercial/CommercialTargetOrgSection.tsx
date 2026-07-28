@@ -62,7 +62,7 @@ export function CommercialTargetOrgSection() {
               <span>Digital</span>
               <div className="org-roles">
                 <div className="org-role">
-                  AI-agent layer
+                  Digital Sales Analytics
                   <small>
                     Funnel &amp; Revenue
                     <br />
@@ -78,8 +78,8 @@ export function CommercialTargetOrgSection() {
 
         <p className="org-note">
           На старте директор может напрямую вести оба коммерческих контура.
-          Команды расширяются по нагрузке; аналитика масштабируется через
-          ИИ-агентов, а не через найм аналитиков.
+          Команды расширяются по нагрузке; цифровая аналитика масштабируется
+          автоматически, а не через найм аналитиков.
         </p>
       </div>
     </section>
