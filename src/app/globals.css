@@ -483,6 +483,28 @@ button {
   border-bottom: 1px solid var(--line);
 }
 
+.smb-org-branches {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.smb-org-branches .org-segment {
+  display: block;
+}
+
+.smb-org-branches .org-segment > span {
+  display: block;
+  padding: 14px 0 10px;
+}
+
+.smb-org-branches .org-roles {
+  border-top: 1px solid var(--faint);
+  border-left: 0;
+}
+
+.smb-org-branches .org-role {
+  padding: 16px 0;
+}
+
 .org-branch {
   min-width: 0;
   padding: 26px 24px;

@@ -1,19 +1,15 @@
-const revenueMotions = [
+const revenueSystem = [
   {
-    name: "Inbound",
-    focus: "Тёплый СМБ и новый продукт",
+    name: "База",
+    focus: "Удержание · чек · win-back · cross-sell",
   },
   {
-    name: "Partners",
-    focus: "Партнёрский канал",
+    name: "Новые",
+    focus: "Inbound · Outbound · Partners",
   },
   {
-    name: "Enterprise",
-    focus: "Новые крупные клиенты",
-  },
-  {
-    name: "KAM",
-    focus: "Удержание и развитие",
+    name: "Аналитика",
+    focus: "CRM · прогноз · управленческие сигналы",
   },
 ];
 
@@ -22,23 +18,23 @@ export function CommercialHeroSection() {
     <section className="hero" aria-labelledby="hero-title">
       <div className="shell">
         <p className="eyebrow">
-          КОНТРАКТ РОЛИ · CEO ↔ КОММЕРЧЕСКИЙ ДИРЕКТОР
+          КОНТРАКТ РОЛИ · CEO ↔ ДИРЕКТОР ПО ПРОДАЖАМ СМБ
         </p>
-        <h1 id="hero-title">Построить четыре измеримые машины выручки</h1>
+        <h1 id="hero-title">Построить продажи СМБ как систему</h1>
         <p className="hero-copy">
-          У Aivel три сегмента, но четыре коммерческих движения: единый Inbound
-          для тёплого СМБ и нового продукта, партнёрский канал, Enterprise New
-          Business и KAM действующих клиентов.
+          Aivel строит AI roll-up бухгалтерского аутсорсинга и выпускает
+          ИИ-финдира. За полгода собрали более 400 млн ₽ выручки; продукт уже
+          работает в крупных корпорациях. Эта роль отвечает только за СМБ.
         </p>
 
         <div
-          className="metric-grid cols-4 hero-metrics"
-          aria-label="Четыре машины выручки"
+          className="metric-grid cols-3 hero-metrics"
+          aria-label="Система продаж СМБ"
         >
-          {revenueMotions.map((motion) => (
-            <div className="metric-card" key={motion.name}>
-              <strong>{motion.name}</strong>
-              <span>{motion.focus}</span>
+          {revenueSystem.map((part) => (
+            <div className="metric-card" key={part.name}>
+              <strong>{part.name}</strong>
+              <span>{part.focus}</span>
             </div>
           ))}
         </div>

@@ -8,48 +8,47 @@ export function CommercialTargetOrgSection() {
 
       <div className="section-body">
         <p className="section-lead">
-          Четыре владельца коммерческих движений под одним владельцем выручки.
-          Это полный набор функций; численность растёт вместе с объёмом воронки.
+          Два владельца выручки под одним директором. Аналитика — отдельная
+          цифровая функция, а не штат ручных аналитиков.
         </p>
 
         <div className="org-root">
           <span className="tag">Role owner</span>
-          <strong>Commercial Director</strong>
+          <strong>SMB Sales Director</strong>
         </div>
 
-        <div className="org-branches">
+        <div className="org-branches smb-org-branches">
           <div className="org-branch">
-            <strong>Новая выручка</strong>
+            <strong>Действующая база</strong>
 
             <div className="org-segment">
-              <span>Inbound</span>
+              <span>Owner</span>
               <div className="org-roles">
                 <div className="org-role">
-                  Head of Inbound Sales
-                  <small>Inbound Sales Managers</small>
-                </div>
-              </div>
-            </div>
-
-            <div className="org-segment">
-              <span>Partners</span>
-              <div className="org-roles">
-                <div className="org-role">
-                  Head of Partner Sales
-                  <small>Partner Sales Managers</small>
-                </div>
-              </div>
-            </div>
-
-            <div className="org-segment">
-              <span>Enterprise</span>
-              <div className="org-roles">
-                <div className="org-role">
-                  Head of Enterprise New Business
+                  Head of Customer Revenue
                   <small>
-                    Enterprise New Biz Managers
+                    Account Managers
                     <br />
-                    Presales / Solution Consultant
+                    Win-back &amp; Cross-sell Managers
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="org-branch">
+            <strong>Новые клиенты</strong>
+            <div className="org-segment">
+              <span>Owner</span>
+              <div className="org-roles">
+                <div className="org-role">
+                  Head of New SMB Sales
+                  <small>
+                    Inbound Sales Managers
+                    <br />
+                    Outbound Sales Managers
+                    <br />
+                    Partner Sales Managers
                   </small>
                 </div>
               </div>
@@ -57,14 +56,20 @@ export function CommercialTargetOrgSection() {
           </div>
 
           <div className="org-branch shared-functions">
-            <strong>Действующая выручка</strong>
+            <strong>Аналитика продаж</strong>
 
             <div className="org-segment">
-              <span>KAM</span>
+              <span>Digital</span>
               <div className="org-roles">
                 <div className="org-role">
-                  Head of Key Account Management
-                  <small>Key Account Managers</small>
+                  AI-agent layer
+                  <small>
+                    Funnel &amp; Revenue
+                    <br />
+                    Forecast &amp; Alerts
+                    <br />
+                    Churn &amp; Growth Signals
+                  </small>
                 </div>
               </div>
             </div>
@@ -72,9 +77,9 @@ export function CommercialTargetOrgSection() {
         </div>
 
         <p className="org-note">
-          На старте один руководитель может совмещать несколько ячеек.
-          Presales остаётся внутри Enterprise; отдельного Product Sales и
-          дублирующего Enterprise Account Management нет.
+          На старте директор может напрямую вести оба коммерческих контура.
+          Команды расширяются по нагрузке; аналитика масштабируется через
+          ИИ-агентов, а не через найм аналитиков.
         </p>
       </div>
     </section>

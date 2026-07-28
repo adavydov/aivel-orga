@@ -6,13 +6,13 @@ import { CommercialSiteHeader } from "@/components/commercial/CommercialSiteHead
 import { CommercialTargetOrgSection } from "@/components/commercial/CommercialTargetOrgSection";
 
 export const metadata: Metadata = {
-  title: "Коммерческий директор Aivel — контракт роли",
+  title: "Директор по продажам СМБ Aivel — контракт роли",
   description:
-    "Функции, целевая оргструктура, границы и метрики роли коммерческого директора Aivel.",
+    "Функции, целевая оргструктура, границы и метрики роли директора по продажам СМБ Aivel.",
   openGraph: {
-    title: "Коммерческий директор Aivel — контракт роли",
+    title: "Директор по продажам СМБ Aivel — контракт роли",
     description:
-      "Четыре машины выручки: Inbound, Partners, Enterprise New Business и KAM.",
+      "Действующая база, новые клиенты и цифровая аналитика продаж.",
     type: "website",
     locale: "ru_RU",
     url: "https://adavydov.github.io/aivel-orga/commercial/",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Коммерческий директор Aivel — контракт роли",
+    title: "Директор по продажам СМБ Aivel — контракт роли",
     description:
-      "Четыре машины выручки: Inbound, Partners, Enterprise New Business и KAM.",
+      "Действующая база, новые клиенты и цифровая аналитика продаж.",
     images: [],
   },
 };
@@ -45,7 +45,7 @@ export default function CommercialDirectorPage() {
       <footer className="site-footer">
         <div className="shell">
           <span>Aivel · контракт роли</span>
-          <span>CEO ↔ коммерческий директор</span>
+          <span>CEO ↔ директор по продажам СМБ</span>
         </div>
       </footer>
     </>

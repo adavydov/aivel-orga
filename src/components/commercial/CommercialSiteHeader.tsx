@@ -20,7 +20,7 @@ export function CommercialSiteHeader() {
             href="#content"
             aria-label="Aivel — к началу страницы"
           >
-            Aivel / коммерция
+            Aivel / продажи СМБ
           </a>
 
           <nav className="desktop-nav" aria-label="Основная навигация">
